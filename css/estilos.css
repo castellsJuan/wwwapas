@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+/*Las propiedades justify-content y align-items en CSS se utilizan principalmente con Flexbox y Grid Layout para alinear y distribuir los elementos dentro de un contenedor.
+
+justify-content
+Controla la alineación horizontal de los elementos dentro de un contenedor flexible o de cuadrícula. Es decir, distribuye el espacio libre en el eje principal (que suele ser el eje horizontal en Flexbox, pero depende de la dirección establecida por flex-direction).
+
+Valores comunes de justify-content:
+
+flex-start: Alinea los elementos al inicio del contenedor.
+flex-end: Alinea los elementos al final del contenedor.
+center: Alinea los elementos en el centro del contenedor.
+space-between: Distribuye los elementos con el mayor espacio posible entre ellos (sin espacio en los extremos).
+space-around: Distribuye los elementos con espacio igual alrededor de cada uno (incluyendo los extremos).
+space-evenly: Distribuye los elementos de manera uniforme, con espacio igual entre ellos y en los extremos.
+
+align-items
+Controla la alineación vertical (o en el eje cruzado) de los elementos dentro del contenedor. Se aplica a la alineación en el eje perpendicular al eje principal del contenedor.
+
+Valores comunes de align-items:
+
+stretch: Estira los elementos para llenar el espacio disponible a lo largo del eje cruzado (por defecto).
+flex-start: Alinea los elementos al inicio del eje cruzado.
+flex-end: Alinea los elementos al final del eje cruzado.
+center: Alinea los elementos en el centro del eje cruzado.
+baseline: Alinea los elementos según su línea de base de texto.
+*/
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+ul li a{
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding: 40px;
+}
+
+ol li{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+header nav img{
+    width: 240px;
+    height: 56px;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#principal-section-i{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#principal-section-ii{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr{
+    width: 1300px;
+    color: #000000;
+}
+
+#foto-principal{
+    width: 688px;
+    height: 550px;
+}
+
+#servicios-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#somos{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h3{
+    display: inline-block; /*esto es para que el pading se adapte a el ancho del texto*/
+    /*La propiedad display en HTML (a través de CSS) define cómo se debe mostrar un elemento en la página web. Controla el modelo de caja del elemento y cómo interactúa con otros elementos del documento.
+
+    Algunos de los valores más comunes de la propiedad display son:
+
+    block: El elemento se muestra como un bloque (ocupa todo el ancho disponible). Ejemplos: <div>, <h1>, <p>.
+    inline: El elemento se muestra en línea, ocupando solo el ancho necesario, sin interrumpir el flujo de los elementos a su alrededor. Ejemplos: <span>, <a>.
+    inline-block: Combina características de block e inline, ya que el elemento se muestra en línea, pero conserva las propiedades de un bloque, como el ancho y el alto.
+    none: El elemento no se muestra en absoluto, como si no existiera en el documento.
+    flex: Convierte el contenedor en un "contenedor flexible" que distribuye los elementos hijos (flex items) de forma más eficiente, permitiendo mayor control sobre alineación, distribución, etc.
+    grid: Define un contenedor de cuadrícula para organizar los elementos en filas y columnas.
+    table: Hace que el elemento se comporte como una tabla, similar a las etiquetas <table>.*/
+    
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FCEE21;
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.resaltado{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#servicios-h3{
+    font-weight: 700;
+    font-size: 40px;
+    background-color: white;
+}
+
+.item-destacado{
+    width: 390px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #FCEE21;
+}
+
+label, input, textarea{
+    display: block; /* Asegura que cada elemento ocupe una línea completa. 
+    No se aplica a los elementos dentro del contenedor*/
+    width: 535px; /* Asegura que los elementos ocupen todo el ancho disponible */
+}
+
+label{
+    font-weight: 700;
+    font-size: 20px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+label span{
+    color: rgba(255, 0, 0, 0.774);
+}
+
+input{
+    font-size: 24px;
+    height: 55px;
+}
+
+
+textarea{
+    height: 175px;
+    font-size: 24px;
+}
+
+button{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+}
+
+#botones-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contacto-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: start
+}
+
+.pregunta-contacto{
+    /*display: inline-block;*/
+    color: #FFFFFF;
+    background-color:#000000;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#foto{
+    width: 100px;
+    height: 550px;
+}
+
+#foto-servicios{
+    width: 550px;
+    height: 535px;
+}
+
+#redes{ /*parrafo redes wappas*/
+    color:#808080;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#redes-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.redes-img{
+    width: 115px;
+    height: 105px;
+}
+
+
+#wwwapas{
+    font-family: 'Coiny', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #FCEE21;
+}
+
+
+footer p{
+    font-family: 'Coiny', sans-serif;
+    font-size: 33px;
+}
+
+footer a{
+    font-weight: 400;
+    font-size: 21px;
+    color:#000000;
+    margin-top: 12px;
+}
+
+footer p, footer a{
+    margin-left: 100px;
+}
+
+
